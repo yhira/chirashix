@@ -1,6 +1,6 @@
 unit ExtIniFile;
 
-// ExtIniFile Version 1.5.1           copyright(c) ‚Ý‚¸, 2002-2008
+// ExtIniFile Version 1.5.1          copyright(c) ‚Ý‚¸, 2002-2008
 
 interface
 

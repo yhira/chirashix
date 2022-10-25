@@ -701,8 +701,8 @@ object Form1: TForm1
   end
   object ActionList1: TActionList
     Images = ImageList1
-    Left = 584
-    Top = 241
+    Left = 800
+    Top = 488
     object ActionEditCut: TEditCut
       Category = 'Edit'
       Caption = '切り取り'
@@ -986,7 +986,7 @@ object Form1: TForm1
     MinFontSize = 0
     MaxFontSize = 0
     Options = []
-    Left = 680
-    Top = 241
+    Left = 576
+    Top = 240
   end
 end

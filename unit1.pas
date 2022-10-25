@@ -168,13 +168,13 @@ end;
 
 procedure TForm1.ActionTopMostUpdate(Sender: TObject);
 begin
-  //if ActionTopMost.Checked then begin
-  //  //常に手前に表示
-  //  FormStyle := fsSystemStayOnTop;
-  //end else begin
-  //  //常に手前に表示を解除
-  //  FormStyle := fsStayOnTop;
-  //end;
+  if ActionTopMost.Checked then begin
+    //常に手前に表示
+    FormStyle := fsSystemStayOnTop;
+  end else begin
+    //常に手前に表示を解除
+    FormStyle := fsStayOnTop;
+  end;
 end;
 
 end.

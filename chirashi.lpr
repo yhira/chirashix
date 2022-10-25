@@ -18,7 +18,7 @@ uses
 
 {$R *.res}
 const
-  UniqueName:string = 'HogeHogeApp';
+  UniqueName:string = 'Cirashi_xA81wJNINtFWbA6wBGpk';
 
 //-----------------------------------------------------------------------------
 //  EnumWindows のコールバック関数
