@@ -1,0 +1,6 @@
+*.exe
+*.ini
+*.txt
+backup/
+lib/
+Images/
