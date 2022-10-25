@@ -3,7 +3,7 @@ object Form1: TForm1
   Height = 596
   Top = 277
   Width = 925
-  Caption = 'チラシの裏'
+  Caption = 'チラシの裏X'
   ClientHeight = 596
   ClientWidth = 925
   DesignTimePPI = 144
@@ -776,6 +776,7 @@ object Form1: TForm1
       Caption = 'バージョン情報'
       Hint = 'バージョン情報'
       ImageIndex = 10
+      OnExecute = ActionVersionExecute
     end
   end
   object PopupMenu1: TPopupMenu
@@ -811,6 +812,12 @@ object Form1: TForm1
     end
     object MenuItem7: TMenuItem
       Action = ActionEditSelectAll
+    end
+    object Separator4: TMenuItem
+      Caption = '-'
+    end
+    object MenuItem8: TMenuItem
+      Action = ActionEditClear
     end
   end
   object ImageList1: TImageList

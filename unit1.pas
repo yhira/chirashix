@@ -34,11 +34,13 @@ type
     MenuItem5: TMenuItem;
     MenuItem6: TMenuItem;
     MenuItem7: TMenuItem;
+    MenuItem8: TMenuItem;
     PopupMenu1: TPopupMenu;
     RichEdit1: TRichMemo;
     Separator1: TMenuItem;
     Separator2: TMenuItem;
     Separator3: TMenuItem;
+    Separator4: TMenuItem;
     ToolBar1: TToolBar;
     ToolButton1: TToolButton;
     ToolButton10: TToolButton;
@@ -64,6 +66,7 @@ type
     procedure ActionNewMemoExecute(Sender: TObject);
     procedure ActionTopMostExecute(Sender: TObject);
     procedure ActionTopMostUpdate(Sender: TObject);
+    procedure ActionVersionExecute(Sender: TObject);
     procedure FormActivate(Sender: TObject);
     procedure FormClose(Sender: TObject; var CloseAction: TCloseAction);
     procedure FormCreate(Sender: TObject);
@@ -78,7 +81,9 @@ var
   Form1: TForm1; 
   ExIniFile: TExtIniFile;
 
-implementation
+implementation      
+
+uses Unit2;
 
 {$R *.lfm}
 
@@ -174,6 +179,16 @@ begin
   end else begin
     //常に手前に表示を解除
     FormStyle := fsStayOnTop;
+  end;
+end;
+
+procedure TForm1.ActionVersionExecute(Sender: TObject);
+begin
+  Form2 := TForm2.Create(self);
+  try
+    Form2.ShowModal;
+  finally
+    Form2.Free;
   end;
 end;
 
