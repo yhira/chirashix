@@ -1,9 +1,9 @@
 object Form1: TForm1
-  Left = 23
+  Left = 2463
   Height = 596
-  Top = 277
+  Top = 1166
   Width = 925
-  Caption = 'チラシの裏X'
+  Caption = 'チラシの裏x'
   ClientHeight = 596
   ClientWidth = 925
   DesignTimePPI = 144
@@ -570,6 +570,7 @@ object Form1: TForm1
     Top = 0
     Width = 925
     Caption = 'ToolBar1'
+    DropDownWidth = 18
     Images = ImageList1
     TabOrder = 1
     object ToolButton1: TToolButton
